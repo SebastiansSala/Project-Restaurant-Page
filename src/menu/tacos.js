@@ -22,12 +22,15 @@ export const renderTacos = () => {
             <p class="foodDesc" style="color: #F59223;">Great american foodarstart
               arstartsartarstearsntar
               arstarosierte
+              arstartsartarstearsntar
+              arstarosierte
             </p>
           </div>
           <div class="entradas-container">
             <h3 class="foodtitle" style="color: #003049;">Tacos</h3>
             <h4 class="foodPrice">$300</h4>
-            <p class="foodDesc" style="color: #F59223;">Great american food</p>
+            <p class="foodDesc" style="color: #F59223;">arstartsartarstearsntar
+            arstarosierte</p>
           </div>
       </div>
 

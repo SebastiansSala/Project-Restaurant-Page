@@ -5,15 +5,13 @@ export const renderHome =  (() => {
     <div class="header">
       <nav>
         <ul>
-          <li><a >Home</a></li>
-          <li><a routerLink="#menu" routerLinkActive="active">Menu</a></li>
-          <li><a routerLink="#menu" routerLinkActive="active">Location</a></li>
-          <li><a routerLink="#menu" routerLinkActive="active">Contact</a></li>
+          <li><a href='#home'>Home</a></li>
+          <li><a routerLink="#menu" href='#menu'>Menu</a></li>
         </ul>
       </nav>
     </div>
 
-    <section class="main">
+    <section class="main" id='home'>
       <div class="intro">
         <div class="intro-flex">
           <p class="title">

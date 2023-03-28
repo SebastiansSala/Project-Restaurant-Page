@@ -1,6 +1,6 @@
-import { renderBurger } from "./burger";
-import { renderTacos } from "./tacos";
-import { renderPizza } from "./pizza";
+import { renderBurger } from "./menu/burger";
+import { renderTacos } from "./menu/tacos";
+import { renderPizza } from "./menu/pizza";
 
 const replaceRender = (menu, newRender) => {
     const menuItem = menu.querySelector(".menu");
@@ -11,7 +11,7 @@ const replaceRender = (menu, newRender) => {
     const menu = document.createElement("section");
     menu.classList.add("menuwrapper");
     menu.innerHTML = `
-      <div class="menutitles">
+      <div class="menutitles" id='menu'>
           <p>MENU</p>
           <nav class="title-flex">
             <li class='title'>Hamburguesas</li>
